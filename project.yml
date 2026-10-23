@@ -11,7 +11,7 @@ settings:
     DEVELOPMENT_TEAM: Y9T5MPV87F
     CODE_SIGN_STYLE: Automatic
     CODE_SIGN_IDENTITY: "Apple Development"
-    MARKETING_VERSION: "0.1.0"
+    MARKETING_VERSION: "1.0"
     CURRENT_PROJECT_VERSION: "1"
     ENABLE_USER_SCRIPT_SANDBOXING: YES
     DEAD_CODE_STRIPPING: YES
@@ -28,6 +28,8 @@ targets:
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         LSApplicationCategoryType: public.app-category.productivity
+        # No custom encryption (EventKit only, no network): skips the export question on upload.
+        ITSAppUsesNonExemptEncryption: false
         LSMinimumSystemVersion: $(MACOSX_DEPLOYMENT_TARGET)
         NSHumanReadableCopyright: "© 2026 Hung Ngo"
         NSCalendarsFullAccessUsageDescription: "DeskDash shows your calendar events on the dashboard and lets you add and edit them. It never deletes events."

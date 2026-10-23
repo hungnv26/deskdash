@@ -27,6 +27,7 @@
 		6DA324E4C91784A1EF2D6975 /* DeskDashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41D9B1030E01E75788F184 /* DeskDashApp.swift */; };
 		7112F8CD1A75B1E1C6889184 /* CalendarPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4298F14DFE37AA40DDDCD9E /* CalendarPanelView.swift */; };
 		7A6811AC1C0968D2769D5AA6 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA52C9FC6AC5E3EFDC2F34 /* Log.swift */; };
+		802DEFB0510427FF3A74E61D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AA0DA70E1919654BE26915B9 /* PrivacyInfo.xcprivacy */; };
 		8455FABD8F0C72BC5ED82013 /* CalendarWriteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BE7DFD70BE3827A3B740B /* CalendarWriteTests.swift */; };
 		85C794892B8275F65F159CB1 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3126B9F97D55222702B30936 /* StatusItemController.swift */; };
 		8B4AA2A5E0042B0A43B1F7DE /* DashboardWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417AE58CDE7DD95C0CB90211 /* DashboardWindowController.swift */; };
@@ -89,6 +90,7 @@
 		931192608AAD07EB4BDF1053 /* EventKitRemindersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitRemindersRepository.swift; sourceTree = "<group>"; };
 		A10DA4CCC66E251C416C3986 /* EventEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditorView.swift; sourceTree = "<group>"; };
 		A13CAC21A954B2ACD7CCDD84 /* DeskDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeskDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0DA70E1919654BE26915B9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AF41D9B1030E01E75788F184 /* DeskDashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskDashApp.swift; sourceTree = "<group>"; };
 		B2656C75453C2199B66B18F8 /* TaskDueDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDueDate.swift; sourceTree = "<group>"; };
 		B4C0826EBCF5FB35CFDA6F7D /* MockCalendarRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCalendarRepository.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				3566785CC13234B1EE77CF29 /* Assets.xcassets */,
+				AA0DA70E1919654BE26915B9 /* PrivacyInfo.xcprivacy */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				453C0E6BCBCEA78530285AAE /* Assets.xcassets in Resources */,
+				802DEFB0510427FF3A74E61D /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +494,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -590,7 +594,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
