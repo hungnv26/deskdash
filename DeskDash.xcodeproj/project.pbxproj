@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B7827E204D12191BFBF739 /* MonthGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2721BF8C5E564D5F41BF01CE /* MonthGridView.swift */; };
+		022F614EDFE69F7A2CFE0BA5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236E8225E322A8F5F3BC5DD /* SettingsView.swift */; };
+		0A1ABA37A864223519801004 /* DateLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE42DD254246B98A0EFD37 /* DateLogicTests.swift */; };
+		0D288A611AFEBB4C7E475514 /* RemindersStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F643B36540B33D2EE0647 /* RemindersStore.swift */; };
+		1C7838F75A03B19F45311D46 /* CalendarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DA2140ABDBA6FD1DB883E3 /* CalendarRepository.swift */; };
+		1F81B4E786788D69C2C81247 /* CalendarModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5709C53AA4BC1F6B820F23C3 /* CalendarModels.swift */; };
+		22681F705687353144BEE273 /* CalendarMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4B6140E61FC07A27C8E113 /* CalendarMath.swift */; };
+		26C18E438689A349DDCFA65C /* RemindersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033EFB527DA0667ED7DD8850 /* RemindersRepository.swift */; };
+		28194889E48F95DBE801CD00 /* ReminderEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3C6AA3B71FD763174F710 /* ReminderEditorView.swift */; };
+		290858B0AC8E3144584E3FD5 /* ReminderGrouper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A35B28D9536757587E7288 /* ReminderGrouper.swift */; };
+		29DA1F72E1644E5D47A7D0B3 /* DesktopStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653BBFC6CC431B29D6A654D /* DesktopStyle.swift */; };
+		3E71F5681B78E3A828493AF8 /* MockRemindersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F1390F163F5D280F859555 /* MockRemindersRepository.swift */; };
+		453C0E6BCBCEA78530285AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3566785CC13234B1EE77CF29 /* Assets.xcassets */; };
+		48167FC958BED915289366E5 /* MockCalendarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C0826EBCF5FB35CFDA6F7D /* MockCalendarRepository.swift */; };
+		62AF25A2CC9ADD32B070AE9D /* PreferencesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FC7C67CE112F1315F708E4 /* PreferencesStore.swift */; };
+		67D7D0F55F474F5F56C52071 /* ReminderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61507BAD5F77C80430B8FF2A /* ReminderModels.swift */; };
+		6AFF633A0616BDF63F06A9D6 /* EventEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10DA4CCC66E251C416C3986 /* EventEditorView.swift */; };
+		6DA324E4C91784A1EF2D6975 /* DeskDashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41D9B1030E01E75788F184 /* DeskDashApp.swift */; };
+		7112F8CD1A75B1E1C6889184 /* CalendarPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4298F14DFE37AA40DDDCD9E /* CalendarPanelView.swift */; };
+		7A6811AC1C0968D2769D5AA6 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA52C9FC6AC5E3EFDC2F34 /* Log.swift */; };
+		8455FABD8F0C72BC5ED82013 /* CalendarWriteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BE7DFD70BE3827A3B740B /* CalendarWriteTests.swift */; };
+		85C794892B8275F65F159CB1 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3126B9F97D55222702B30936 /* StatusItemController.swift */; };
+		8B4AA2A5E0042B0A43B1F7DE /* DashboardWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417AE58CDE7DD95C0CB90211 /* DashboardWindowController.swift */; };
+		902039FB2E00F5AE0D02142E /* ReminderLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE21A0EDF01B915FB063C06 /* ReminderLogicTests.swift */; };
+		956255B281782FB020C37088 /* DayAgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60612B6DD2D95034E811E365 /* DayAgendaView.swift */; };
+		99DC19F2464A6DAD2A79732F /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4264C07AEEFAA477471AF06C /* AppModel.swift */; };
+		9EA365B39207B464BC63AA35 /* RemindersPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C086AD4DDA773A738B4787 /* RemindersPanelView.swift */; };
+		A3E7D89E865506AB840B34DD /* DashboardRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E1C565729BF3BE59A66E58 /* DashboardRootView.swift */; };
+		AE3CDBB806E57B2A6E5571EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BD59CD243C1C28C86A89E6 /* AppDelegate.swift */; };
+		C31ECA0477D7151B4AAAC853 /* EventKitCalendarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A10719166042876EDCB82 /* EventKitCalendarRepository.swift */; };
+		C7D391E0905A99325E11E8F3 /* ReminderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB82CF85503570822224597 /* ReminderRowView.swift */; };
+		CD50702CE29E66AAAD382D1F /* QuickAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E4EC2957E74285D67CE007 /* QuickAddView.swift */; };
+		D48637FA1F41918F366B1C60 /* EventKitRemindersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931192608AAD07EB4BDF1053 /* EventKitRemindersRepository.swift */; };
+		E166074FEB48014268648D6F /* TaskDueDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2656C75453C2199B66B18F8 /* TaskDueDate.swift */; };
+		F520F73809647A2E8E9B0136 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F4884730806A182C5F792 /* Components.swift */; };
+		FF4D87B6534D8405F7B66E4E /* CalendarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD44FE4994260833D64E918 /* CalendarStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B5B7507A1857552953DBA2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 928C929F5972123118ED3162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57A5D5763277CEAB85559AF5;
+			remoteInfo = DeskDash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033EFB527DA0667ED7DD8850 /* RemindersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersRepository.swift; sourceTree = "<group>"; };
+		0CE21A0EDF01B915FB063C06 /* ReminderLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderLogicTests.swift; sourceTree = "<group>"; };
+		12C086AD4DDA773A738B4787 /* RemindersPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersPanelView.swift; sourceTree = "<group>"; };
+		15FC7C67CE112F1315F708E4 /* PreferencesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesStore.swift; sourceTree = "<group>"; };
+		1B4B6140E61FC07A27C8E113 /* CalendarMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMath.swift; sourceTree = "<group>"; };
+		2721BF8C5E564D5F41BF01CE /* MonthGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthGridView.swift; sourceTree = "<group>"; };
+		2A8BE7DFD70BE3827A3B740B /* CalendarWriteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWriteTests.swift; sourceTree = "<group>"; };
+		2CAE42DD254246B98A0EFD37 /* DateLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLogicTests.swift; sourceTree = "<group>"; };
+		2D9F4884730806A182C5F792 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		3126B9F97D55222702B30936 /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
+		3236E8225E322A8F5F3BC5DD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3566785CC13234B1EE77CF29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38E4EC2957E74285D67CE007 /* QuickAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddView.swift; sourceTree = "<group>"; };
+		40BD59CD243C1C28C86A89E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		417AE58CDE7DD95C0CB90211 /* DashboardWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardWindowController.swift; sourceTree = "<group>"; };
+		4264C07AEEFAA477471AF06C /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		42E3C6AA3B71FD763174F710 /* ReminderEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderEditorView.swift; sourceTree = "<group>"; };
+		4BD44FE4994260833D64E918 /* CalendarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarStore.swift; sourceTree = "<group>"; };
+		55A35B28D9536757587E7288 /* ReminderGrouper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderGrouper.swift; sourceTree = "<group>"; };
+		56C4D8B6635761AE74661914 /* DeskDash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeskDash.entitlements; sourceTree = "<group>"; };
+		5709C53AA4BC1F6B820F23C3 /* CalendarModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModels.swift; sourceTree = "<group>"; };
+		60612B6DD2D95034E811E365 /* DayAgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayAgendaView.swift; sourceTree = "<group>"; };
+		61507BAD5F77C80430B8FF2A /* ReminderModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModels.swift; sourceTree = "<group>"; };
+		61DA2140ABDBA6FD1DB883E3 /* CalendarRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarRepository.swift; sourceTree = "<group>"; };
+		62F1390F163F5D280F859555 /* MockRemindersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRemindersRepository.swift; sourceTree = "<group>"; };
+		6BB82CF85503570822224597 /* ReminderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRowView.swift; sourceTree = "<group>"; };
+		723A10719166042876EDCB82 /* EventKitCalendarRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitCalendarRepository.swift; sourceTree = "<group>"; };
+		7653BBFC6CC431B29D6A654D /* DesktopStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopStyle.swift; sourceTree = "<group>"; };
+		79EA52C9FC6AC5E3EFDC2F34 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		7F0A4E84F79C6BE57AD92145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		931192608AAD07EB4BDF1053 /* EventKitRemindersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitRemindersRepository.swift; sourceTree = "<group>"; };
+		A10DA4CCC66E251C416C3986 /* EventEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditorView.swift; sourceTree = "<group>"; };
+		A13CAC21A954B2ACD7CCDD84 /* DeskDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeskDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF41D9B1030E01E75788F184 /* DeskDashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskDashApp.swift; sourceTree = "<group>"; };
+		B2656C75453C2199B66B18F8 /* TaskDueDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDueDate.swift; sourceTree = "<group>"; };
+		B4C0826EBCF5FB35CFDA6F7D /* MockCalendarRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCalendarRepository.swift; sourceTree = "<group>"; };
+		E0E1C565729BF3BE59A66E58 /* DashboardRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardRootView.swift; sourceTree = "<group>"; };
+		E4298F14DFE37AA40DDDCD9E /* CalendarPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPanelView.swift; sourceTree = "<group>"; };
+		E811E3205E4C1C28131C487E /* DeskDashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeskDashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93F643B36540B33D2EE0647 /* RemindersStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00738B3B73B7E54106095B1B /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				417AE58CDE7DD95C0CB90211 /* DashboardWindowController.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		0B1DA993E344DC3000290FDE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3566785CC13234B1EE77CF29 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3573F397B09BD4321E6D815B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2D9F4884730806A182C5F792 /* Components.swift */,
+				7653BBFC6CC431B29D6A654D /* DesktopStyle.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4CC0D96C737B7501105102E6 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				61DA2140ABDBA6FD1DB883E3 /* CalendarRepository.swift */,
+				4BD44FE4994260833D64E918 /* CalendarStore.swift */,
+				723A10719166042876EDCB82 /* EventKitCalendarRepository.swift */,
+				B4C0826EBCF5FB35CFDA6F7D /* MockCalendarRepository.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		5AB14DC50B40961ACDA1B621 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5709C53AA4BC1F6B820F23C3 /* CalendarModels.swift */,
+				61507BAD5F77C80430B8FF2A /* ReminderModels.swift */,
+				B2656C75453C2199B66B18F8 /* TaskDueDate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		776926E5DBEE1C03C49CADF9 /* DeskDash */ = {
+			isa = PBXGroup;
+			children = (
+				56C4D8B6635761AE74661914 /* DeskDash.entitlements */,
+				7F0A4E84F79C6BE57AD92145 /* Info.plist */,
+				B5292DD79494F723F124D73D /* App */,
+				4CC0D96C737B7501105102E6 /* Calendar */,
+				5AB14DC50B40961ACDA1B621 /* Models */,
+				A39EED15E0D9659893FD178D /* Reminders */,
+				0B1DA993E344DC3000290FDE /* Resources */,
+				79C17E7BCED5F48DFD4D048F /* Support */,
+				99B82279628AC0E925AAFF93 /* Views */,
+				00738B3B73B7E54106095B1B /* Window */,
+			);
+			path = DeskDash;
+			sourceTree = "<group>";
+		};
+		79C17E7BCED5F48DFD4D048F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1B4B6140E61FC07A27C8E113 /* CalendarMath.swift */,
+				79EA52C9FC6AC5E3EFDC2F34 /* Log.swift */,
+				55A35B28D9536757587E7288 /* ReminderGrouper.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		86BC8D68F482C9090F53336E /* DeskDashTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A8BE7DFD70BE3827A3B740B /* CalendarWriteTests.swift */,
+				2CAE42DD254246B98A0EFD37 /* DateLogicTests.swift */,
+				0CE21A0EDF01B915FB063C06 /* ReminderLogicTests.swift */,
+			);
+			path = DeskDashTests;
+			sourceTree = "<group>";
+		};
+		8F16281F68BEDD4F9664EB76 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				38E4EC2957E74285D67CE007 /* QuickAddView.swift */,
+				42E3C6AA3B71FD763174F710 /* ReminderEditorView.swift */,
+				6BB82CF85503570822224597 /* ReminderRowView.swift */,
+				12C086AD4DDA773A738B4787 /* RemindersPanelView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		90940F6738462564EF496E46 = {
+			isa = PBXGroup;
+			children = (
+				776926E5DBEE1C03C49CADF9 /* DeskDash */,
+				86BC8D68F482C9090F53336E /* DeskDashTests */,
+				B8F769FDA422F777443CC96B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92D645C8D2EB0711500186DE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3236E8225E322A8F5F3BC5DD /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		99B82279628AC0E925AAFF93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0E1C565729BF3BE59A66E58 /* DashboardRootView.swift */,
+				B9CB0286A0357AAC6AC07622 /* Calendar */,
+				8F16281F68BEDD4F9664EB76 /* Reminders */,
+				92D645C8D2EB0711500186DE /* Settings */,
+				3573F397B09BD4321E6D815B /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A39EED15E0D9659893FD178D /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				931192608AAD07EB4BDF1053 /* EventKitRemindersRepository.swift */,
+				62F1390F163F5D280F859555 /* MockRemindersRepository.swift */,
+				033EFB527DA0667ED7DD8850 /* RemindersRepository.swift */,
+				F93F643B36540B33D2EE0647 /* RemindersStore.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		B5292DD79494F723F124D73D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				40BD59CD243C1C28C86A89E6 /* AppDelegate.swift */,
+				4264C07AEEFAA477471AF06C /* AppModel.swift */,
+				AF41D9B1030E01E75788F184 /* DeskDashApp.swift */,
+				15FC7C67CE112F1315F708E4 /* PreferencesStore.swift */,
+				3126B9F97D55222702B30936 /* StatusItemController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B8F769FDA422F777443CC96B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13CAC21A954B2ACD7CCDD84 /* DeskDash.app */,
+				E811E3205E4C1C28131C487E /* DeskDashTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9CB0286A0357AAC6AC07622 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				E4298F14DFE37AA40DDDCD9E /* CalendarPanelView.swift */,
+				60612B6DD2D95034E811E365 /* DayAgendaView.swift */,
+				A10DA4CCC66E251C416C3986 /* EventEditorView.swift */,
+				2721BF8C5E564D5F41BF01CE /* MonthGridView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57A5D5763277CEAB85559AF5 /* DeskDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA284F1913B892C9A771EEA /* Build configuration list for PBXNativeTarget "DeskDash" */;
+			buildPhases = (
+				29B457147A8A5F47AF48A6FF /* Sources */,
+				73FC25E05AFB7249AACC95ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeskDash;
+			packageProductDependencies = (
+			);
+			productName = DeskDash;
+			productReference = A13CAC21A954B2ACD7CCDD84 /* DeskDash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4F5DFBC3D3AD7F6FBC2D3BF /* DeskDashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB5066AFCC2B7079DD3C11A /* Build configuration list for PBXNativeTarget "DeskDashTests" */;
+			buildPhases = (
+				E7C44BD893DBC4EB910627E5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78BE6173D26700A5C4FC000E /* PBXTargetDependency */,
+			);
+			name = DeskDashTests;
+			packageProductDependencies = (
+			);
+			productName = DeskDashTests;
+			productReference = E811E3205E4C1C28131C487E /* DeskDashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		928C929F5972123118ED3162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					57A5D5763277CEAB85559AF5 = {
+						DevelopmentTeam = Y9T5MPV87F;
+						ProvisioningStyle = Automatic;
+					};
+					A4F5DFBC3D3AD7F6FBC2D3BF = {
+						DevelopmentTeam = Y9T5MPV87F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FBB85B095BA74C0AA6AB42C8 /* Build configuration list for PBXProject "DeskDash" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 90940F6738462564EF496E46;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B8F769FDA422F777443CC96B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57A5D5763277CEAB85559AF5 /* DeskDash */,
+				A4F5DFBC3D3AD7F6FBC2D3BF /* DeskDashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73FC25E05AFB7249AACC95ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453C0E6BCBCEA78530285AAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29B457147A8A5F47AF48A6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3CDBB806E57B2A6E5571EB /* AppDelegate.swift in Sources */,
+				99DC19F2464A6DAD2A79732F /* AppModel.swift in Sources */,
+				22681F705687353144BEE273 /* CalendarMath.swift in Sources */,
+				1F81B4E786788D69C2C81247 /* CalendarModels.swift in Sources */,
+				7112F8CD1A75B1E1C6889184 /* CalendarPanelView.swift in Sources */,
+				1C7838F75A03B19F45311D46 /* CalendarRepository.swift in Sources */,
+				FF4D87B6534D8405F7B66E4E /* CalendarStore.swift in Sources */,
+				F520F73809647A2E8E9B0136 /* Components.swift in Sources */,
+				A3E7D89E865506AB840B34DD /* DashboardRootView.swift in Sources */,
+				8B4AA2A5E0042B0A43B1F7DE /* DashboardWindowController.swift in Sources */,
+				956255B281782FB020C37088 /* DayAgendaView.swift in Sources */,
+				6DA324E4C91784A1EF2D6975 /* DeskDashApp.swift in Sources */,
+				29DA1F72E1644E5D47A7D0B3 /* DesktopStyle.swift in Sources */,
+				6AFF633A0616BDF63F06A9D6 /* EventEditorView.swift in Sources */,
+				C31ECA0477D7151B4AAAC853 /* EventKitCalendarRepository.swift in Sources */,
+				D48637FA1F41918F366B1C60 /* EventKitRemindersRepository.swift in Sources */,
+				7A6811AC1C0968D2769D5AA6 /* Log.swift in Sources */,
+				48167FC958BED915289366E5 /* MockCalendarRepository.swift in Sources */,
+				3E71F5681B78E3A828493AF8 /* MockRemindersRepository.swift in Sources */,
+				00B7827E204D12191BFBF739 /* MonthGridView.swift in Sources */,
+				62AF25A2CC9ADD32B070AE9D /* PreferencesStore.swift in Sources */,
+				CD50702CE29E66AAAD382D1F /* QuickAddView.swift in Sources */,
+				28194889E48F95DBE801CD00 /* ReminderEditorView.swift in Sources */,
+				290858B0AC8E3144584E3FD5 /* ReminderGrouper.swift in Sources */,
+				67D7D0F55F474F5F56C52071 /* ReminderModels.swift in Sources */,
+				C7D391E0905A99325E11E8F3 /* ReminderRowView.swift in Sources */,
+				9EA365B39207B464BC63AA35 /* RemindersPanelView.swift in Sources */,
+				26C18E438689A349DDCFA65C /* RemindersRepository.swift in Sources */,
+				0D288A611AFEBB4C7E475514 /* RemindersStore.swift in Sources */,
+				022F614EDFE69F7A2CFE0BA5 /* SettingsView.swift in Sources */,
+				85C794892B8275F65F159CB1 /* StatusItemController.swift in Sources */,
+				E166074FEB48014268648D6F /* TaskDueDate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C44BD893DBC4EB910627E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455FABD8F0C72BC5ED82013 /* CalendarWriteTests.swift in Sources */,
+				0A1ABA37A864223519801004 /* DateLogicTests.swift in Sources */,
+				902039FB2E00F5AE0D02142E /* ReminderLogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78BE6173D26700A5C4FC000E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57A5D5763277CEAB85559AF5 /* DeskDash */;
+			targetProxy = 1B5B7507A1857552953DBA2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A3FCFEE90F1D339FA6F3FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hungngo.DeskDashTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeskDash.app/Contents/MacOS/DeskDash";
+			};
+			name = Release;
+		};
+		3CE93491A65BE4D013F8BD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Y9T5MPV87F;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		3F26021BAC04D4BFC7A30CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hungngo.DeskDashTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeskDash.app/Contents/MacOS/DeskDash";
+			};
+			name = Debug;
+		};
+		740D52119DEDD6C748A7D50C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DeskDash/DeskDash.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DeskDash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hungngo.DeskDash;
+				PRODUCT_NAME = DeskDash;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D482DFDD31ED8176A9558802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y9T5MPV87F;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		FC7C813AC77F065CA197BDD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DeskDash/DeskDash.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DeskDash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.hungngo.DeskDash;
+				PRODUCT_NAME = DeskDash;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AA284F1913B892C9A771EEA /* Build configuration list for PBXNativeTarget "DeskDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740D52119DEDD6C748A7D50C /* Debug */,
+				FC7C813AC77F065CA197BDD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9CB5066AFCC2B7079DD3C11A /* Build configuration list for PBXNativeTarget "DeskDashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F26021BAC04D4BFC7A30CE7 /* Debug */,
+				3A3FCFEE90F1D339FA6F3FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBB85B095BA74C0AA6AB42C8 /* Build configuration list for PBXProject "DeskDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE93491A65BE4D013F8BD2D /* Debug */,
+				D482DFDD31ED8176A9558802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 928C929F5972123118ED3162 /* Project object */;
+}

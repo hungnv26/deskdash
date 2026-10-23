@@ -1,0 +1,72 @@
+name: DeskDash
+options:
+  bundleIdPrefix: net.hungngo
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: Y9T5MPV87F
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGN_IDENTITY: "Apple Development"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    DEAD_CODE_STRIPPING: YES
+targets:
+  DeskDash:
+    type: application
+    platform: macOS
+    sources:
+      - DeskDash
+    info:
+      path: DeskDash/Info.plist
+      properties:
+        CFBundleDisplayName: DeskDash
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSApplicationCategoryType: public.app-category.productivity
+        LSMinimumSystemVersion: $(MACOSX_DEPLOYMENT_TARGET)
+        NSHumanReadableCopyright: "© 2026 Hung Ngo"
+        NSCalendarsFullAccessUsageDescription: "DeskDash shows your calendar events on the dashboard and lets you add and edit them. It never deletes events."
+        NSRemindersFullAccessUsageDescription: "DeskDash shows your reminders on the dashboard and lets you add, edit and complete them. Changes sync to your other devices through iCloud."
+    entitlements:
+      path: DeskDash/DeskDash.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        # Covers the whole EventKit store: calendar events and reminders.
+        com.apple.security.personal-information.calendars: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: net.hungngo.DeskDash
+        PRODUCT_NAME: DeskDash
+        ENABLE_HARDENED_RUNTIME: YES
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        COMBINE_HIDPI_IMAGES: YES
+  DeskDashTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - DeskDashTests
+    dependencies:
+      - target: DeskDash
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: net.hungngo.DeskDashTests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/DeskDash.app/Contents/MacOS/DeskDash"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+schemes:
+  DeskDash:
+    build:
+      targets:
+        DeskDash: all
+        DeskDashTests: [test]
+    test:
+      targets:
+        - DeskDashTests
+    run:
+      config: Debug
